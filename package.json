@@ -1,0 +1,17 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leticiamrosa/javascript-algorithms.git",
+  "author": "Leticia Monteiro <leticiamonteiro.design@gmail.com> (https://leticiamrosa.github.io/)",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "nodemon": "^1.19.2"
+  }
+}
