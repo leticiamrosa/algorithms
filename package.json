@@ -6,12 +6,14 @@
   "author": "Leticia Monteiro <leticiamonteiro.design@gmail.com> (https://leticiamrosa.github.io/)",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index"
+    "start": "nodemon --exec babel-node src/index",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/node": "^7.6.1",
     "@babel/preset-env": "^7.6.0",
+    "jest": "^26.5.3",
     "nodemon": "^1.19.2"
   }
 }

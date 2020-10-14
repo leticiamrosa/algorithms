@@ -8,7 +8,7 @@
  * A ticket number represented as a positive integer with an even number of digits.
  */
 
-function isLucky(n) {
+export default function isLucky(n) {
   n = n.toString();
 
   let half = n.length / 2;
