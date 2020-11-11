@@ -1,4 +1,4 @@
-function containsDuplicates(a) {
+export function containsDuplicates(a) {
 
   let tmp = {};
   let result = false;
@@ -11,4 +11,20 @@ function containsDuplicates(a) {
   return result;
 
 }
-console.log(containsDuplicates([1, 2, 3, 1]))
+
+
+export function containsDuplicatesV2(a) {
+  let result = false;
+
+  // iterate over the array
+  for (let i = 0; i < a.length; i++) {
+    // compare the first and last index of an element
+    if (a.indexOf(a[i]) !== a.lastIndexOf(a[i])) {
+      return result = true;
+      // terminate the loop
+    }
+    return result;
+  };
+}
+
+

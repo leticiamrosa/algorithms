@@ -24,7 +24,7 @@ describe('isLucky', () => {
   });
 
   it('should return correctly', () => {
-    expect(isLucky(134008)).toBe(true);
+    expect(isLucky(134008)).toBeTruthy();
     expect(isLucky(10)).toBeFalsy();
     expect(isLucky(11)).toBeTruthy();
     expect(isLucky(1010)).toBeTruthy();
