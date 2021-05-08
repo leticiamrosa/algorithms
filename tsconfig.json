@@ -1,0 +1,18 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "module": "commonjs",
+    "noEmit": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+  },
+  "include": [
+    "algorithms/**/*",
+    "challenges/**/*",
+    "data-structures/**/*",
+  ],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
