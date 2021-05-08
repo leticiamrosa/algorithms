@@ -21,5 +21,3 @@
  };
 
  console.log(reverseArray([1,2,3,4]));
-
- console.log('oi')
