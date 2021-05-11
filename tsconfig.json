@@ -8,11 +8,13 @@
     "removeComments": true,
     "resolveJsonModule": true,
     "sourceMap": true,
+    "esModuleInterop": true,
   },
   "include": [
     "algorithms/**/*",
     "challenges/**/*",
     "data-structures/**/*",
+    "utils/**/*"
   ],
   "exclude": ["node_modules", "**/*.test.ts"]
 }
