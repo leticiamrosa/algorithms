@@ -38,3 +38,5 @@ My profile on some platforms challenges
 - [HackRank](https://www.hackerrank.com/leticiamrosa?hr_r=1https://www.hackerrank.com/leticiamrosa?hr_r=1)
 - [Codesignal](https://app.codesignal.com/profile/leticia_m6)
 - [FreeCodeCamp](https://www.freecodecamp.org/leticiamonteiro)
+- [Codewars](https://www.codewars.com/users/leticiamrosa)
+- [Leetcode](https://leetcode.com/leticiamrosa/)
